@@ -14,5 +14,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.imx376_ofilm.light.lux=275 \
     persist.vendor.imx376_ofilm.low.lux=290 \
     persist.vendor.imx376_sunny.light.lux=275 \
-    persist.vendor.imx376_sunny.low.lux=290 \
-    vendor.camera.aux.packagelist=com.android.camera
+    persist.vendor.imx376_sunny.low.lux=290
