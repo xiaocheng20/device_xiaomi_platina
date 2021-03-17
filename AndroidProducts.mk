@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_platina.mk
+    $(LOCAL_DIR)/exthm_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_platina-user \
-    havoc_platina-userdebug \
-    havoc_platina-eng
+    exthm_platina-user \
+    exthm_platina-userdebug \
+    exthm_platina-eng
