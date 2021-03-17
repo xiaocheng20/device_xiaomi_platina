@@ -71,3 +71,4 @@ PRODUCT_PACKAGES += \
 
 # Inherit proprietary files
 $(call inherit-product, vendor/xiaomi/platina/platina-vendor.mk)
+$(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
