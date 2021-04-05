@@ -54,8 +54,7 @@ BOARD_HAVE_QCOM_FM := false
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-lineage
+    $(DEVICE_PATH)/overlay 
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
@@ -75,3 +74,4 @@ PRODUCT_PACKAGES += \
 
 # Inherit proprietary files
 $(call inherit-product, vendor/xiaomi/platina/platina-vendor.mk)
+$(call inherit-product, vendor/xiaomi/MiuiCamera/config.mk)
